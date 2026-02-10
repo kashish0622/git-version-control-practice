@@ -1,0 +1,12 @@
+Command	Use
+pwd is used for Current directory.
+cd is uded to Move between folders.
+ls is used to List files.
+ls -a is used to Lists all files, including hidden files (those starting with a dot .).
+mkdir is uded to Create folder.
+touch is uded to Create file.
+rm is uded to Delete file.
+cd/ is used to Go to the root directory.
+cd .. is used to Move to the previous folder. 
+touch is used to Create a new empty file.
+clear is used to Clear the terminal screen.
