@@ -20,3 +20,5 @@ git status is used to display the current state of the working directory and the
 git add is used to add new or modified file contents from the working directory to the staging area.
 git commit is used to record the currently staged changes as permanent. 
 git log is used to display the recorded history of all commits in a repository.
+
+These are all the basics.
