@@ -2,15 +2,16 @@ Merging is the process of combining changes from one branch into another branch.
 Branching is the process of creating a separate copy of the project to work on changes independently.
 
 Commands for branching
-git branch	Lists all branches in the repository.
-git branch branch-name	Creates a new branch with the given name.
-git checkout branch-name	Switches to the specified branch.
-git checkout -b branch-name	Creates and switches to a new branch in one step.
-git branch -d branch-name	Deletes a branch after it has been merged.
-git branch -D branch-name	Force deletes a branch even if it is not merged.
-git branch -m new-name	Renames the current branch.
+git branch	                   Lists all branches in the repository.
+git branch branch-name	       Creates a new branch with the given name.
+git checkout branch-name	   Switches to the specified branch.
+git checkout -b branch-name	   Creates and switches to a new branch in one step.
+git branch -d branch-name	   Deletes a branch after it has been merged.
+git branch -D branch-name	   Force deletes a branch even if it is not merged.
+git branch -m new-name	       Renames the current branch.
 
 Commands for Merging
 git merge branch-name	        Merges the specified branch into the current branch.
 git merge --no-ff branch-name	Merges while keeping full branch history.
 git merge --abort	            Cancels a merge process if a conflict occurs.
+
