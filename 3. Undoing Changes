@@ -4,7 +4,6 @@ git reset --mixed	Undo commit and unstage changes (default).
 git reset --hard	Undo commit and delete all changes completely.
 
 example:
-git reset --soft HEAD~1
-➡️ Removes last commit but keeps your work safe.
-git reset --mixed HEAD~1
-➡️ Removes the last commit and unstages the changes, but keeps the work in your files.
+git reset --soft HEAD~1   ➝ Removes last commit but keeps changes staged.
+git reset --mixed HEAD~1  ➝ Removes last commit and unstages changes, but keeps files.
+git reset --hard HEAD~1   ➝ Removes last commit and deletes all changes completely.
