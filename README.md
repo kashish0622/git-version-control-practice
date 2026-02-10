@@ -4,3 +4,4 @@ This repository is a complete hands-on practical guide to learning and mastering
 
 It is created as part of my internship preparation and assessment to demonstrate strong understanding of Git workflows used in software development teams.
 
+trying git hooks 2 together
