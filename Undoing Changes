@@ -1,1 +1,4 @@
 Git reset is used to go back to an earlier commit and remove or unstage changes from the current history.
+git reset --soft	Undo commit but keep changes staged.
+git reset --mixed	Undo commit and unstage changes (default).
+git reset --hard	Undo commit and delete all changes completely.
