@@ -1,4 +1,5 @@
-Command	Use
+#Basic CLI commands
+
 pwd is used for Current directory.
 cd is uded to Move between folders.
 ls is used to List files.
@@ -10,3 +11,12 @@ cd/ is used to Go to the root directory.
 cd .. is used to Move to the previous folder. 
 touch is used to Create a new empty file.
 clear is used to Clear the terminal screen.
+
+
+#Basic Git commands
+
+git init is used to initialize the git repository.
+git status is used to display the current state of the working directory and the staging area, showing which changes have been staged, which haven't, and which files aren't being tracked by Git.
+git add is used to add new or modified file contents from the working directory to the staging area.
+git commit is used to record the currently staged changes as permanent. 
+git log is used to display the recorded history of all commits in a repository.
