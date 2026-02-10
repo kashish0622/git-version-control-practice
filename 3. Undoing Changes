@@ -9,5 +9,7 @@ git reset --mixed HEAD~1  ➝ Removes last commit and unstages changes, but keep
 git reset --hard HEAD~1   ➝ Removes last commit and deletes all changes completely.
 
 Git revert safely undoes a commit by making a new commit that cancels the previous changes but it keeps the history straight.
-git revert HEAD           ➝  Undoes the most recent commit by creating a new commit.
-git revert <commit-id>    ➝  Cancels the changes made in specific commit.
+git revert HEAD                       ➝   Undoes the most recent commit by creating a new commit.
+git revert <commit-id>                ➝   Cancels the changes made in specific commit.
+git revert <commit-id1> <commit-id2>  ➝   Creates separate revert commits for each.
+git revert --abort                    ➝   Cancels the revert process.
