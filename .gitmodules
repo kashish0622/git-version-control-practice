@@ -1,0 +1,3 @@
+[submodule "remoterepository"]
+	path = remoterepository
+	url = https://github.com/kashish0622/remoterepository.git
