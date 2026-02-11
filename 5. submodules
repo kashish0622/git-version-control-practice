@@ -1,0 +1,2 @@
+Using submodules we can include another git repository in our git repository.
+brought remoterepository as submodule in our existing repository.
